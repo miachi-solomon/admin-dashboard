@@ -49,6 +49,13 @@ p {
     background-color: white;
 }
 
+.search-bar {
+    height: 30px;
+    width: 500px;
+    background-color: #E2E8F0;
+    border-radius: 20px;
+}
+
 .main {
     background-color: #E2E8F0;
 }
