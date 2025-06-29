@@ -47,13 +47,76 @@ p {
 
 .header {
     background-color: white;
+    z-index: 1;
+    padding: 10px 30px;
+    box-shadow: 1px 2px 6px -3px gray;
 }
 
 .search-bar {
     height: 30px;
-    width: 500px;
+    width: 700px;
     background-color: #E2E8F0;
     border-radius: 20px;
+}
+
+.small-pp {
+    border-radius: 50%;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.user-name {
+    font-size: 22px;
+}
+
+.greeting-text {
+    font-size: 13px;
+}
+
+.search,
+.others {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.others {
+    margin-left: auto;
+}
+
+.header-row1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 20px;
+}
+
+.header-row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons {
+    justify-self: end;
+}
+
+button {
+    border: none;
+    background-color: #1992D4;
+    color: white;
+    height: 35px;
+    width: 80px;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 .main {
