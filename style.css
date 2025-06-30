@@ -178,6 +178,20 @@ button {
     gap: 10px;
 }
 
+.topic {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.essay {
+    color: gray;
+    font-size: 14px;
+}
+
+.break-line {
+    border-bottom: 1px solid gray;
+}
+
 .trending {
     display: grid;
     grid-template-columns: min-content 1fr;
@@ -186,7 +200,7 @@ button {
 }
 
 .tag {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .bio {
